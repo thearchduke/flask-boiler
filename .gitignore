@@ -1,3 +1,4 @@
 *.pyc
 *.sqlite
 boiler/email.py
+secure/*
