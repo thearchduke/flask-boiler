@@ -1,0 +1,3 @@
+*.pyc
+*.sqlite
+boiler/email.py
