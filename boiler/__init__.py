@@ -15,6 +15,9 @@ app.config['SECURITY_REGISTERABLE'] = True
 app.config['SECURITY_CONFIRMABLE'] = True
 app.config['SECURITY_RECOVERABLE'] = True
 app.config.from_object('boiler.email')
+app.config['SECURITY_PASSWORD_HASH'] = 'bcrypt'
+app.config['SECURITY_PASSWORD_SALT'] = ''
+
 
 # Setup mail extension
 mail = Mail(app)
