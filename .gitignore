@@ -1,4 +1,5 @@
 *.pyc
 *.sqlite
 boiler/email.py
+boiler/__init__.py
 secure/*
